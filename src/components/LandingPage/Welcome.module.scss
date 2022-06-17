@@ -7,6 +7,8 @@
     padding: 4rem;
     font-size: 1rem;
     background-color: lightgreen;
+    justify-content: center;
+    align-items: center;
 
     @include breakpoint(md) {
         flex-direction: row;
@@ -15,9 +17,10 @@
     &__section {
         width: 100%;
         margin: 1rem;
+        padding: 1rem;
 
         h1 {
-            font-size: 2rem;
+            font-size: 4rem;
             margin-bottom: 1rem;
         }
         
@@ -54,6 +57,7 @@
 
     &__image--container {
         width: 100%;
+        min-height: 30rem;
         background-color: red;
         display: none;
 
