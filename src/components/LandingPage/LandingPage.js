@@ -1,6 +1,7 @@
 import CompanyValues from "./CompanyValues";
 import Welcome from "./Welcome";
 import CustomerStories from "./CustormersStories/CustomerStories";
+import Queries from "./Queries/Queries";
 
 const LandingPage = () => {
   return (
@@ -8,6 +9,7 @@ const LandingPage = () => {
       <Welcome />
       <CompanyValues />
       <CustomerStories />
+      <Queries />
     </>
   );
 };
