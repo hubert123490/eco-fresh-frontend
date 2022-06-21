@@ -8,6 +8,10 @@
 
   &__label {
     text-align: center;
+
+    @include breakpoint(md) {
+      font-size: 3rem;
+    }
   }
 
   &__container {
