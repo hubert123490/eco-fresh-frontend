@@ -18,6 +18,10 @@
     font-size: 1.2rem;
 
     @include breakpoint(md) {
+      h1 {
+        font-size: 3rem;
+      }
+
       font-size: 2rem;
     }
   }

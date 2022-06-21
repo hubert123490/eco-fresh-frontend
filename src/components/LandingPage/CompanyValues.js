@@ -4,7 +4,7 @@ const CompanyValues = () => {
   return (
     <div className={classes["values"]}>
       <div className={classes["values__label"]}>
-        <h1>Our company goals</h1>
+        <h1 className={classes["values__label--title"]}>Our company goals</h1>
         <ul className={classes["values__label--list"]}>
           <li className={classes["values__label--list__item"]}>
             <h2>Food waste reduction</h2>
