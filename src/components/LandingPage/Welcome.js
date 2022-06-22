@@ -11,12 +11,10 @@ const Welcome = () => {
             you order.
           </h2>
           <div className={classes["welcome__section--link"]}>
-            <a href="#">Order a delivery!</a>
+            <a href="/#">Order a delivery!</a>
           </div>
         </section>
-        <div className={classes["welcome__image--container"]}>
-          <img />
-        </div>
+        <div className={classes["welcome__image--container"]}></div>
       </article>
     </>
   );

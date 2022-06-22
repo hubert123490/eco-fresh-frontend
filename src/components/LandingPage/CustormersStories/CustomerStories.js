@@ -1,6 +1,8 @@
 import CustomerStory from "./CustomerStory";
 import classes from "./CustomerStories.module.scss";
-import noImage from "./No_picture_available.png"
+import gregorImg from "./Gregor.jpg"
+import janImg from "./Jan.jpg"
+import dorotaImg from "./Dorota.jpg"
 
 const CustomerStories = () => {
     return (
@@ -9,9 +11,9 @@ const CustomerStories = () => {
             <h1>Opinions from our customers!</h1>
           </div>
           <CustomerStory
-            imagePath={noImage}
-            imageAlt="Hubert Kowalczyk"
-            customer="Hubert Kowalczyk"
+            imagePath={gregorImg}
+            imageAlt="Gregor Notwell"
+            customer="Gregor Notwell"
             bio="Father of none"
           >
            Thanks to eco-fresh fresh ingredients delivery I don't have to move my lazy ass. It saved my life, my introvert nature doesn't allow me to go outside.
@@ -19,7 +21,7 @@ const CustomerStories = () => {
           </CustomerStory>
           <CustomerStory
             even={true}
-            imagePath={noImage}
+            imagePath={janImg}
             imageAlt="Jan Kowalski"
             customer="Jan Kowalski"
             bio="Father of 5 children"
@@ -27,7 +29,7 @@ const CustomerStories = () => {
             Thanks to eco-fresh I don't have to make shopping for like 3 hours in order to get top quality ingredients for my family.
           </CustomerStory>
           <CustomerStory
-            imagePath={noImage}
+            imagePath={dorotaImg}
             imageAlt="Github projects"
             customer="Dorota Kozidrak"
             bio="Random wife"
