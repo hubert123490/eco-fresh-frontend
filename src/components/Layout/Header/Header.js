@@ -41,7 +41,7 @@ const Header = () => {
           className={classes["header__content--logo"]}
           onClick={menuToggleHandler}
         >
-          navbar
+          Eco Fresh
         </Link>
 
         <nav
